@@ -1,0 +1,43 @@
+.about-us_text {
+  width: 1078px;
+  font-size: 45px;
+  line-height: 61px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  margin-left: 2.9px;
+}
+.about-us-button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ad1818;
+  margin-top: 31px;
+  cursor: pointer;
+}
+@media (max-width: 1199px) {
+  .about-us_text {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us_text {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .about-us-button {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 27px;
+    margin-top: 29px;
+  }
+}

@@ -1,0 +1,124 @@
+@import "/styles/header.css";
+@import "/styles/title.css";
+@import "/styles/project.css";
+@import "/styles/services.css";
+@import "/styles/gallery.css";
+@import "/styles/info.css";
+@import "/styles/footer.css";
+@import "/styles/about-us.css";
+
+body {
+  font-family: "Manrope", Courier, monospace;
+  background: #ffffff;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-bottom: 149px;
+  padding-top: 128px;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-style: normal;
+  max-width: 956px;
+}
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 30px;
+  margin-left: 1px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  font-style: normal;
+}
+.container-black h1,
+.container-black h2,
+.container-black h3 {
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+.paragraph,
+.menu__nav-link,
+.contacts__mail,
+.contacts__phone {
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.projects__look-all {
+  display: block;
+  width: 100%;
+  height: 153px;
+  line-height: 153px;
+  margin-top: 90px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ad1818;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+}
+.projects__look-all:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 802px;
+  }
+  .projects__look-all {
+    margin-top: 101px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding-left: 13px;
+    padding-right: 12px;
+    padding-top: 108px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+    max-width: 348px;
+  }
+  h2 {
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .projects__look-all {
+    width: 100%;
+    font-size: 22px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 62px;
+  }
+}
